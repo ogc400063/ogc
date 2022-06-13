@@ -1,0 +1,85 @@
+
+body {
+  background-color:#E4F9F5;
+  margin : 0;
+  color: #635666;
+  /*text-align: center;*/
+  font-family: "Merriweather", serif;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.top-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  margin-top : 0;
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  color: #66BFBF;
+  line-height: 2;
+  text-align: center;
+
+}
+
+hr {
+  border-color: grey;
+  /*border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;*/
+}
+
+.side-dotted-hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none;
+  width: 5%;
+  margin-right: 100%
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  margin: 50px;
+}
+
+.ogc-image1 {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 300px;
+  height : 250px;
+}
+
+.ogc-image2 {
+  position: absolute;
+  left: 400px;
+  bottom: 30px;
+  width: 300px;
+  height : 250px;
+}
+
+.ogc-image3 {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  width: 300px;
+  height : 250px;
+}
+
+.title {
+  font-size: 300%;
+  font-weight: 600;
+  line-height: 1;
+  font-family: 'Sacramento', cursive;
+}
+.heading1 {
+  display: inline-block;
+}
